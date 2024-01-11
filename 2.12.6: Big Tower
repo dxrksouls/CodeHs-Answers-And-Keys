@@ -1,0 +1,13 @@
+# This program draws a big tower from Karel's starting spot
+put_ball()
+while facing_south():
+    turn_left()
+while facing_east():
+    turn_left()
+while facing_west():
+    turn_left()
+    turn_left()
+    turn_left()
+while front_is_clear():
+    move()
+    put_ball()
