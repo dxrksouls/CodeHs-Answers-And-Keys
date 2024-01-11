@@ -1,0 +1,28 @@
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+def turn_around():
+    turn_left()
+    turn_left()
+def move_twice():
+    move()
+    move()
+def bury_ball():
+    move_twice()
+    turn_right()
+    move_twice()
+    move()
+    put_ball()
+    turn_around()
+    move_twice()
+    move()
+bury_ball()
+turn_right()
+move()
+bury_ball()
+turn_right()
+move()
+bury_ball()
+turn_right()
+move()
