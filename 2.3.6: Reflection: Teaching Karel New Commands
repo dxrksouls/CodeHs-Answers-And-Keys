@@ -1,0 +1,10 @@
+It is better to learn how to right a function like:
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+------------------------------------------------------
+Becuase say instead of having to type turn_left() 700 times, you only have to type one single function like the one shown, because later your only going to have to type turn_right():.
+Also indeed it does take less turn_left() commands to turn right cause if you have to type turn_left() over and over its gonna get annoying so thats why we use the turn_right() command.
+And the new commands help us by making code shorter and instead of having to type the same one over and over again and use 100+ lines you can cut it to half or even less.
+And yes you can sue turn_right() again.
