@@ -1,0 +1,15 @@
+# Try to lay down a square of four tennis balls
+# using a for loop. 
+for i in range(1):
+    put_ball()
+    move()
+    put_ball()
+    turn_left()
+    move()
+    put_ball()
+    turn_left()
+    move()
+    put_ball()
+    turn_left()
+    move()
+    turn_left()
