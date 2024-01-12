@@ -1,0 +1,16 @@
+### code is under construction ###
+def movetogate():
+    while front_is_clear():
+        move()
+    else:
+        turn_left()
+def decorategate():    
+    for i in range(10):
+        if right_is_clear():
+            move()
+        else:
+            put_ball()
+            if front_is_clear():
+                move()
+movetogate()
+decorategate()
