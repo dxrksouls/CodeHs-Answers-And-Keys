@@ -1,0 +1,28 @@
+def paintrow():
+    for i in range(3):
+        paint(color['black'])
+        move()
+        paint(color['red'])
+        move()
+    paint(color['black'])
+    move()
+    paint(color['red'])
+def move_up_left():
+    turn_left()
+    move()
+    turn_left()
+def move_up_right():
+    turn_right()
+    if front_is_clear():
+        move()
+        turn_right()
+for i in range(4):
+    paintrow()
+    move_up_left()
+    paintrow()
+    move_up_right()
+for i in range(7):
+    turn_around()
+for i in range(7):    
+    move()
+turn_left()
