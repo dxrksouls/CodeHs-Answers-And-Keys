@@ -1,0 +1,9 @@
+def invertcolor():
+    if color_is(color['red']):
+        paint(color['blue'])
+    else:
+        paint(color['red'])
+for i in range(9):
+    invertcolor()
+    move()
+invertcolor()
