@@ -1,0 +1,27 @@
+def take_and_double():
+    take_ball()
+    move()
+    put_ball()
+    put_ball()
+    turn_around()
+    move()
+    turn_around()
+def move_all():
+    while balls_present():
+        take_and_double()
+def move_stack():
+    while balls_present():
+        take_ball()
+        turn_around()
+        move()
+        put_ball()
+        turn_around()
+        move()
+move()
+move_all()
+move()
+move_stack()
+turn_around()
+move()
+move()
+turn_around()
