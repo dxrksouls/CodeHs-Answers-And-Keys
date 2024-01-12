@@ -1,0 +1,24 @@
+def clean_spot():
+    if balls_present():
+        take_ball()
+def clean_row():
+    while front_is_clear():
+        clean_spot()
+        move()
+    clean_spot()
+def move_up():
+    if facing_east():
+        turn_left()
+        move()
+        turn_left()
+    else:
+        turn_right()
+        if front_is_clear():
+            move()
+            turn_right()
+
+while left_is_clear():
+    clean_row()
+    move_up()
+if facing_east():
+    clean_row()
