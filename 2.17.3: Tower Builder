@@ -1,0 +1,17 @@
+def build_tower():
+    turn_left()
+    for i in range(3):
+        put_ball()
+        move()
+    descend()
+def descend():
+    turn_around()
+    while front_is_clear():
+        move()
+    turn_left()
+build_tower()
+while front_is_clear():
+    move()
+    if front_is_clear():
+        move()
+        build_tower()
