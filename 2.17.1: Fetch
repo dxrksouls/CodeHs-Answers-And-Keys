@@ -1,0 +1,19 @@
+def go_to_ball():
+    turn_left()
+    for i in range(4):
+        move()
+    turn_right()
+    for i in range(2):
+        move()
+def take_ball_back():
+    take_ball()
+    turn_around()
+    for i in range(2):
+        move()
+    turn_left()
+    for i in range(4):
+        move()
+    turn_left()
+    put_ball()
+go_to_ball()
+take_ball_back()
