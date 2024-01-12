@@ -1,0 +1,11 @@
+def run_side():
+    while front_is_clear():
+        move()
+    put_ball()
+    turn_left()
+
+def run_lap():
+    for i in range(4):
+        run_side()
+for i in range(8):
+    run_lap()
