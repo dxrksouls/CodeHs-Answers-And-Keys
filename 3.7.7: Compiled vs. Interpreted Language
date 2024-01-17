@@ -1,0 +1,2 @@
+Interpreted programming languages, unlike compiled languages, do not require a separate compilation step. Instead, the source code is executed line by line directly by an interpreter.
+Compiled languages are a type of programming language that follows a two-step process to convert human-readable code into machine-executable code.
