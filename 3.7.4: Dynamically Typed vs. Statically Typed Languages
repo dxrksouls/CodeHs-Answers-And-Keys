@@ -1,0 +1,23 @@
+First off dynamically typed code is less complicated and is extremely easy to write down but is still a little confusing while in other hand statically typed code is way more complex and has alot more code written in it.
+Examples:
+
+
+Dynamically Typed:
+x = 10
+print(type(x))    # Output: <class 'int'>
+
+x = "hello"
+print(type(x))    # Output: <class 'str'>
+
+
+
+
+Statically Typed:
+public class MyProgram
+{
+    public static void main(String[] args)
+    {
+        int x = 10;     // x is an integer
+        String message = "Hello";   // message is a string
+    }
+}
