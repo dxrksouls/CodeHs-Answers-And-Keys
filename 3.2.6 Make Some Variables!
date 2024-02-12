@@ -1,0 +1,4 @@
+name = "Jordan"
+print(name)
+num = 7
+print(num)

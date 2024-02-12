@@ -1,0 +1,12 @@
+"""
+This code is asking for your full name and will after provide all of them together.
+"""
+#This will ask for your first, middle, and last name. 
+first_name = input("Enter your first name: ")
+middle_name = input("Enter your middle name: ")
+last_name = input("Enter your last name: ")
+
+# This code will let you type in your first, middle, and last name.
+full_name = first_name + " " + middle_name + " " + last_name 
+# This print code will print your first, middle, and last name all together.
+print(full_name)
